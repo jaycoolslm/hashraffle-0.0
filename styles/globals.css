@@ -1,0 +1,47 @@
+:root {
+  --turq: #45cbb2;
+  --orange: #cb8145;
+  --red: #cb4553;
+  --black: #3e2f34
+}
+
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #3e2f34;
+}
+
+
+/* NAVBAR COMPONENT */
+nav {
+  /* background-color: #45cbb2; */
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 10vh;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
